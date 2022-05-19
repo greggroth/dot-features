@@ -1,0 +1,19 @@
+{
+    "id": "zsh",
+    "name": "zsh",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "enum": ["latest"]
+        },
+        "username": {
+            "type": "string",
+            "proposals": ["vscode", "codespace"],
+            "default": "codespace"
+        }
+    },
+    "install": {
+        "file": "install.sh"
+    }
+}
