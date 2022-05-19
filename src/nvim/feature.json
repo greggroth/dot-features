@@ -1,0 +1,15 @@
+{
+    "id": "nvim",
+    "name": "NeoVIM",
+    "options": {
+        "package-manager": {
+            "type": "string",
+            "proposals": ["vim-plug", "none"],
+            "default": "none",
+            "description": "Select a package manager to have plugins automatically installed"
+        }
+    },
+    "install": {
+        "file": "install.sh"
+    }
+}
