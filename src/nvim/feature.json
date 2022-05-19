@@ -2,7 +2,7 @@
     "id": "nvim",
     "name": "NeoVIM",
     "options": {
-        "package-manager": {
+        "package_manager": {
             "type": "string",
             "proposals": ["vim-plug", "none"],
             "default": "none",
