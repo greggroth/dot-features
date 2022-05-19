@@ -2,9 +2,14 @@
     "id": "nvim",
     "name": "NeoVIM",
     "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "enum": ["latest"]
+        },
         "package_manager": {
             "type": "string",
-            "proposals": ["vim-plug", "none"],
+            "enum": ["vim-plug", "none"],
             "default": "none",
             "description": "Select a package manager to have plugins automatically installed"
         }

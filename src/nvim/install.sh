@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 
-PACKAGE_MANAGER=${1:-"none"}
+VERSION=${1:-"latest"}
+PACKAGE_MANAGER=${2:-"none"}
 
 set -e
 

@@ -2,6 +2,11 @@
     "id": "ripgrep",
     "name": "ripgrep",
     "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "enum": ["latest"]
+        }
     },
     "install": {
         "file": "install.sh"
