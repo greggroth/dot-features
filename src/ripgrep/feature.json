@@ -1,0 +1,9 @@
+{
+    "id": "ripgrep",
+    "name": "ripgrep",
+    "options": {
+    },
+    "install": {
+        "file": "install.sh"
+    }
+}
